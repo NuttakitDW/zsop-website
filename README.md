@@ -21,7 +21,7 @@ Before running this project, make sure you have the following installed:
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/NuttakitDW/zsop-website.git
 cd zsop-website
 ```
 
