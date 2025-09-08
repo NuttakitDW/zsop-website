@@ -10,6 +10,58 @@
 This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
 Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
 
+## Prerequisites
+
+Before running this project, make sure you have the following installed:
+- **Node.js** (v18 or higher recommended)
+- **pnpm** (preferred) or **npm**
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone <your-repository-url>
+cd zsop-website
+```
+
+### 2. Install dependencies
+
+Using pnpm (recommended):
+```bash
+pnpm install
+```
+
+Or using npm:
+```bash
+npm install
+```
+
+### 3. Run the development server
+
+```bash
+pnpm dev
+# or
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+
+## Available Scripts
+
+- **`pnpm dev`** - Starts the development server with hot-reload
+- **`pnpm build`** - Creates an optimized production build
+- **`pnpm start`** - Runs the production server (requires `pnpm build` first)
+- **`pnpm lint`** - Runs the linter to check code quality
+
+## Development Workflow
+
+1. Make your changes locally
+2. Test them using `pnpm dev`
+3. Run `pnpm lint` to check for any linting issues
+4. Build the project with `pnpm build` to ensure it compiles correctly
+5. Commit and push your changes
+
 ## Deployment
 
 Your project is live at:
